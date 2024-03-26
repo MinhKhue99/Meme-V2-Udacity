@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500A1C712BB30901009B1A86 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 500A1C702BB30901009B1A86 /* impact.ttf */; };
+		500A1C742BB30BCC009B1A86 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A1C732BB30BCC009B1A86 /* ImagePicker.swift */; };
 		506546D82BB1CA15003F7940 /* MemeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506546D72BB1CA15003F7940 /* MemeMeApp.swift */; };
 		506546DA2BB1CA15003F7940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506546D92BB1CA15003F7940 /* ContentView.swift */; };
 		506546DC2BB1CA17003F7940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506546DB2BB1CA17003F7940 /* Assets.xcassets */; };
 		506546DF2BB1CA17003F7940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506546DE2BB1CA17003F7940 /* Preview Assets.xcassets */; };
+		50B251B32BB1D3430075D48D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251B22BB1D3430075D48D /* MainTabView.swift */; };
+		50B251B52BB1D3F10075D48D /* MemeGridTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251B42BB1D3F10075D48D /* MemeGridTabView.swift */; };
+		50B251B72BB1D4050075D48D /* MemeListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251B62BB1D4050075D48D /* MemeListTabView.swift */; };
+		50B251BD2BB1DF2A0075D48D /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251BC2BB1DF2A0075D48D /* Meme.swift */; };
+		50B251BF2BB1DF500075D48D /* MemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251BE2BB1DF500075D48D /* MemeViewModel.swift */; };
+		50B251C12BB1DF9F0075D48D /* MemeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251C02BB1DF9F0075D48D /* MemeTextField.swift */; };
+		50B251C42BB1E05F0075D48D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251C32BB1E05F0075D48D /* Extension.swift */; };
+		50B251C62BB1E0D00075D48D /* NewMemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B251C52BB1E0CF0075D48D /* NewMemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500A1C702BB30901009B1A86 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.ttf; sourceTree = "<group>"; };
+		500A1C722BB30930009B1A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		500A1C732BB30BCC009B1A86 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		506546D42BB1CA15003F7940 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506546D72BB1CA15003F7940 /* MemeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMeApp.swift; sourceTree = "<group>"; };
 		506546D92BB1CA15003F7940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		506546DB2BB1CA17003F7940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506546DE2BB1CA17003F7940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50B251B22BB1D3430075D48D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		50B251B42BB1D3F10075D48D /* MemeGridTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeGridTabView.swift; sourceTree = "<group>"; };
+		50B251B62BB1D4050075D48D /* MemeListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeListTabView.swift; sourceTree = "<group>"; };
+		50B251BC2BB1DF2A0075D48D /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		50B251BE2BB1DF500075D48D /* MemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewModel.swift; sourceTree = "<group>"; };
+		50B251C02BB1DF9F0075D48D /* MemeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTextField.swift; sourceTree = "<group>"; };
+		50B251C32BB1E05F0075D48D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		50B251C52BB1E0CF0075D48D /* NewMemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500A1C6D2BB306E2009B1A86 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				500A1C702BB30901009B1A86 /* impact.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		506546CB2BB1CA15003F7940 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +80,15 @@
 		506546D62BB1CA15003F7940 /* MemeMe */ = {
 			isa = PBXGroup;
 			children = (
-				506546D72BB1CA15003F7940 /* MemeMeApp.swift */,
-				506546D92BB1CA15003F7940 /* ContentView.swift */,
+				500A1C722BB30930009B1A86 /* Info.plist */,
+				50B251BB2BB1DEB50075D48D /* App */,
 				506546DB2BB1CA17003F7940 /* Assets.xcassets */,
+				50B251C22BB1E0350075D48D /* Extensions */,
+				500A1C6D2BB306E2009B1A86 /* Font */,
+				50B251B82BB1DE6D0075D48D /* Model */,
 				506546DD2BB1CA17003F7940 /* Preview Content */,
+				50B251B92BB1DE850075D48D /* View */,
+				50B251BA2BB1DEA70075D48D /* ViewModel */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
@@ -65,6 +99,52 @@
 				506546DE2BB1CA17003F7940 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50B251B82BB1DE6D0075D48D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50B251BC2BB1DF2A0075D48D /* Meme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50B251B92BB1DE850075D48D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				506546D92BB1CA15003F7940 /* ContentView.swift */,
+				50B251B22BB1D3430075D48D /* MainTabView.swift */,
+				50B251B42BB1D3F10075D48D /* MemeGridTabView.swift */,
+				50B251B62BB1D4050075D48D /* MemeListTabView.swift */,
+				50B251C02BB1DF9F0075D48D /* MemeTextField.swift */,
+				50B251C52BB1E0CF0075D48D /* NewMemeView.swift */,
+				500A1C732BB30BCC009B1A86 /* ImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50B251BA2BB1DEA70075D48D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50B251BE2BB1DF500075D48D /* MemeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50B251BB2BB1DEB50075D48D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				506546D72BB1CA15003F7940 /* MemeMeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50B251C22BB1E0350075D48D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50B251C32BB1E05F0075D48D /* Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +207,7 @@
 			files = (
 				506546DF2BB1CA17003F7940 /* Preview Assets.xcassets in Resources */,
 				506546DC2BB1CA17003F7940 /* Assets.xcassets in Resources */,
+				500A1C712BB30901009B1A86 /* impact.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B251C42BB1E05F0075D48D /* Extension.swift in Sources */,
+				50B251B52BB1D3F10075D48D /* MemeGridTabView.swift in Sources */,
+				50B251BF2BB1DF500075D48D /* MemeViewModel.swift in Sources */,
+				50B251C62BB1E0D00075D48D /* NewMemeView.swift in Sources */,
 				506546DA2BB1CA15003F7940 /* ContentView.swift in Sources */,
+				50B251C12BB1DF9F0075D48D /* MemeTextField.swift in Sources */,
 				506546D82BB1CA15003F7940 /* MemeMeApp.swift in Sources */,
+				500A1C742BB30BCC009B1A86 /* ImagePicker.swift in Sources */,
+				50B251BD2BB1DF2A0075D48D /* Meme.swift in Sources */,
+				50B251B72BB1D4050075D48D /* MemeListTabView.swift in Sources */,
+				50B251B32BB1D3430075D48D /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +365,16 @@
 				DEVELOPMENT_TEAM = KNRS8Y6JMQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemeMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need to use camera to take photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Allow;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App need to use your photo to create meme";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +399,16 @@
 				DEVELOPMENT_TEAM = KNRS8Y6JMQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemeMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App need to use camera to take photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Allow;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App need to use your photo to create meme";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
