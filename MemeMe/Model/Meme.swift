@@ -8,7 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct Meme {
+struct Meme: Identifiable {
+    let id = UUID()
     var topText: String
     var bottomText: String
     var originalImage: UIImage

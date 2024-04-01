@@ -12,6 +12,7 @@ struct MemeMeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(MemeViewModel.shared)
         }
     }
 }

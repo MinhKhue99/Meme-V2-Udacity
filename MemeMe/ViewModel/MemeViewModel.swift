@@ -10,9 +10,16 @@ import SwiftUI
 
 class MemeViewModel: ObservableObject {
     @Published var memes = [Meme]()
+    @Published var sentMemes = [SentMeme]()
+    static let shared = MemeViewModel()
+    
     func saveMeme(topText: String, bottomText: String, originalImage: UIImage, memeImage: UIImage) {
         let meme = Meme(topText: topText, bottomText: bottomText, originalImage: originalImage, memeImage: memeImage)
         memes.append(meme)
-        debugPrint("Khue: \(memes)")
+    }
+    
+    func saveSentMeme(sentMeme: UIImage) {
+        let sentMeme = SentMeme(meme: sentMeme)
+        sentMemes.append(sentMeme)
     }
 }

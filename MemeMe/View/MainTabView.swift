@@ -13,20 +13,20 @@ struct MainTabView: View {
     var body: some View {
         NavigationStack {
             TabView(selection: $selectedIndex) {
-                MemeGridTabView()
+                MemeListTabView()
                     .onTapGesture {
                         self.selectedIndex = 0
                     }
                     .tabItem {
-                        Image(systemName: "square.grid.3x3.fill")
+                        Image(systemName: "list.bullet")
                     }
                     .tag(0)
-                MemeListTabView()
+                MemeGridTabView()
                     .onTapGesture {
                         self.selectedIndex = 1
                     }
                     .tabItem {
-                        Image(systemName: "list.bullet")
+                        Image(systemName: "square.grid.3x3.fill")
                     }
                     .tag(1)
             }
@@ -35,7 +35,7 @@ struct MainTabView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .topBarLeading) {
                     Button(action: {
-                        debugPrint("Khue")
+                        // TODO:  Handle edit meme
                     }, label: {
                         Text("Edit")
                     })
@@ -50,7 +50,7 @@ struct MainTabView: View {
                         Image(systemName: "plus")
                     })
                     .fullScreenCover(isPresented: $isShowNewMemeView, content: {
-                        NewMemeView()
+                        NewMemeView(showSheetView: $isShowNewMemeView)
                     })
                 }
             }
