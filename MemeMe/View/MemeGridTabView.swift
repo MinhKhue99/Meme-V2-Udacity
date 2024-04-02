@@ -19,10 +19,12 @@ struct MemeGridTabView: View {
                         GridItem(.flexible()),
                         GridItem(.flexible()),
                     ], spacing: 3) {
-                        ForEach(memeViewModel.sentMemes, id: \.self) { sentMeme in
-                            Image(uiImage: sentMeme.meme)
-                                .resizable()
-                                .frame(width: geo.size.width / 3, height: geo.size.width / 3)
+                        ForEach(memeViewModel.memes) { meme in
+                            NavigationLink(destination: MemeDetailView(meme: meme)) {
+                                Image(uiImage: meme.sentMeme)
+                                    .resizable()
+                                    .frame(width: geo.size.width / 3, height: geo.size.width / 3)
+                            }
                         }
                     }
                 }

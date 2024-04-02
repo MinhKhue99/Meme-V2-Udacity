@@ -14,4 +14,5 @@ struct Meme: Identifiable {
     var bottomText: String
     var originalImage: UIImage
     var memeImage: UIImage?
+    var sentMeme: UIImage
 }

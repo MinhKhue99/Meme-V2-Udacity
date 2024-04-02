@@ -62,8 +62,8 @@ extension NewMemeView {
                         Image(systemName: "square.and.arrow.up")
                     })
                     .background(SharingViewController(isPresenting: $isShare) {
-                        let screenshot = centerView.snapshot()
-                        let activityVC = UIActivityViewController(activityItems: [screenshot], applicationActivities: nil)
+                        let sentMeme = centerView.snapshot()
+                        let activityVC = UIActivityViewController(activityItems: [sentMeme], applicationActivities: nil)
                         
                         // For iPad
                         if UIDevice.current.userInterfaceIdiom == .pad {
@@ -73,8 +73,7 @@ extension NewMemeView {
                         activityVC.completionWithItemsHandler = { (_, completed:
                                                                     Bool, _, error: Error?) in
                             if completed {
-                                memeViewModel.saveMeme(topText: topText, bottomText: bottomText, originalImage: originalImage, memeImage: selectedImage)
-                                memeViewModel.saveSentMeme(sentMeme: screenshot)
+                                memeViewModel.saveMeme(topText: topText, bottomText: bottomText, originalImage: originalImage, memeImage: selectedImage, sentMeme: sentMeme)
                                 isShare = false
                                 debugPrint("share completed")
                                 dismiss()
@@ -221,9 +220,3 @@ struct SharingViewController: UIViewControllerRepresentable {
         }
     }
 }
-
-
-
-//#Preview {
-//    NewMemeView()
-//}
